@@ -1,0 +1,59 @@
+Highly Available Databases with AWS RDS - Quiz
+Module 7 –Multi-AZ Features of AWS RDS
+
+1. ?Is the following statement True or False. “You can deploy two AWS RDS instances in different AWS regions for Multi-AZ setup.” ?
+a. True
+b. False
+
+The correct answer is option b.
+
+The explanation for the correct answer 
+That’s correct! By default, you cannot deploy AWS RDS instances across multiple AWS regions. You can do so by implementing remote connectivity techniques like VPN.
+
+The explanation for incorrect answers
+Option a: Sorry! Incorrect! By default, you cannot deploy AWS RDS instances across multiple AWS regions. You can do so by implementing remote connectivity techniques like VPN.
+
+
+
+2. Data is pushed from master to standby via ______________.  
+a. Asynchronous Replication
+b. AWS CloudWatch
+c. Synchronous Replication
+d. None of the above
+The correct answer is option c.
+The explanation for the correct answer
+You are right! Data is pushed from Primary DB to standby through Synchronous Replication in order to keep the data up to date.  
+The explanation for wrong answers
+Option a: Sorry! Incorrect! Data is pushed from Primary DB to standby through Synchronous Replication in order to keep the data up to date.
+Option b: Sorry! Incorrect! Data is pushed from Primary DB to standby through Synchronous Replication in order to keep the data up to date. 
+Option d: Sorry! Incorrect! Data is pushed from Primary DB to standby through Synchronous Replication in order to keep the data up to date.  
+
+
+
+3. Which of the following is NOT a benefit of Multi-AZ deployment? 
+a. Durability
+b. Scalability
+c. Availability
+d. ZERO Administration
+
+The correct answer is option b.
+
+The explanation for the correct answer
+Yes, that’s correct. Scalability is not a benefit of Multi-AZ deployment. 
+
+The explanation for wrong answers
+Option a: Sorry! That’s incorrect. Scalability is not a benefit of Multi-AZ deployment. 
+Option c: Sorry! That’s incorrect. Scalability is not a benefit of Multi-AZ deployment. 
+Option d: Sorry! That’s incorrect. Scalability is not a benefit of Multi-AZ deployment. 
+
+4. Web applications can perform CRUD operations while a Multi-AZ deployment of AWS RDS is failing over: 
+a. TRUE
+b. FALSE
+
+The correct answer is option a.
+
+The explanation for the correct answer
+You are right! In a Multi-AZ deployment, AWS RDS will failover seamlessly with minimal to no downtime for your applications
+
+The explanation for the wrong answer
+Option b: Sorry! That’s incorrect. In a Multi-AZ deployment, AWS RDS will failover seamlessly with minimal to no downtime for your applications

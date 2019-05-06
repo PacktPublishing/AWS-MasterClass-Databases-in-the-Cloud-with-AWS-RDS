@@ -1,0 +1,57 @@
+Highly Available Databases with AWS RDS - Quiz
+Module 4 –AWS RDS in a VPC
+
+1. What is a VPC?
+a. VPC or Virtual Private Cloud is a virtual network in the cloud which is logically isolated. 
+b. VPC or Virtual Public Cloud is a virtual network in the cloud which is publicly accessible.
+c. VPC or Virtual Private Connect is a virtual network connected to a private network. 
+d. VPC or Verified Private Cloud is a private network that is verified by AWS.
+
+The correct answer is option a.
+
+Explanation for correct answer 
+That’s correct! Just think of it as your private Data Centre in the Cloud.
+
+Explanation for incorrect answers
+Option b: Sorry! Incorrect! It is a virtual network in the cloud which is logically isolated.
+Option c: Sorry! Incorrect! It is a virtual network in the cloud which is logically isolated.
+Option d: Sorry! Incorrect! It is a virtual network in the cloud which is logically isolated.
+
+2. Which of the following statements about a VPC is FALSE?
+a. VPC gives you complete control over networking.  
+b. You cannot assign a static private IP address to your EC2 instance inside a VPC.
+c. You can have multiple IPv4 address in a single EC2 instance in a VPC. 
+d. VPC supports IPv6. 
+The correct answer is option b.
+Explanation for correct answer
+You are right! You CAN assign a static private IP address to your EC2 instance inside a VPC.
+Explanation for wrong answers
+Option a: You are wrong. This is true. VPC gives you complete control over networking and you can create as many subnets as you want.
+Option c: You are wrong! This is a true statement. 
+Option d: You are wrong! This is a true statement.
+3. Up to how many network interfaces can you attach to a single EC2 instance?
+a. 10
+b. 8
+c. 5
+d. 2
+The correct answer is option c.
+
+Explanation for correct answer
+Yes, that’s correct. You can attach up to 5 network interfaces to your single EC2 instance.
+
+Explanation for wrong answers
+Option a: Sorry! That’s incorrect. You can attach only up to 5 network interfaces to your single EC2 instance.
+Option b: Sorry! That’s incorrect. You can attach only up to 5 network interfaces to your single EC2 instance.
+Option d: Sorry! That’s incorrect. You can attach up to 5 network interfaces to your single EC2 instance.
+
+4. State whether the following statement is true or false – “If you want an extra layer of security, you can go for ACL which is an option in VPC.”
+a. True
+b. False
+
+The correct answer is option a.
+
+Explanation for correct answer
+You are right! A network Access Control List (ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+
+Explanation for wrong answer
+Option b: Sorry! That’s incorrect. A network Access Control List (ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.

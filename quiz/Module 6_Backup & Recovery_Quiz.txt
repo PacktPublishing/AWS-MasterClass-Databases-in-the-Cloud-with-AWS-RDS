@@ -1,0 +1,74 @@
+Highly Available Databases with AWS RDS - Quiz
+Module 6 –Backup & Recovery
+
+1. Is the following statement is True or False. “Taking a database instance backup is like taking a snapshot of the EBS Volume which is attached to your database Instance.” 
+a. True
+b. False
+
+The correct answer is option a.
+
+The explanation for the correct answer 
+That’s correct! Taking a database instance backup is akin to taking a Storage Volume Snapshot and will include your entire Database Instance regardless of your database.
+
+The explanation for incorrect answers
+Option b: Sorry! Incorrect! Taking a database instance backup is akin to taking a Storage Volume Snapshot and will include your entire Database Instance regardless of your database.
+
+2. What is the retention period of automated backups in AMW RDS? 
+a. 50 days
+b. 90 days
+c. 35 days
+d. 15 days 
+The correct answer is option c.
+The explanation for the correct answer
+You are right! Automated Backups have a limited retention period of 35 days. 
+The explanation for wrong answers
+Option a: Sorry! Incorrect! Automated Backups have a limited retention period of 35 days. 
+Option b: Sorry! Incorrect! Automated Backups have a limited retention period of 35 days. 
+Option d: Sorry! Incorrect! Automated Backups have a retention period of 35 days. 
+
+3.  If you are using AWS RDS MySQL engine and opting for automatic backup, which of the following storage engine types should you choose? 
+a. PostgreSQL
+b. InnoDB
+c. Oracle
+d. Automatic backup is not supported for MySQL
+
+The correct answer is option b.
+
+The explanation for the correct answer
+Yes, that’s correct. Automated Backup supports only InnoDB storage engine. 
+
+The explanation for wrong answers
+Option a: Sorry! That’s incorrect. Automated Backup supports only InnoDB storage engine.  
+Option c: Sorry! That’s incorrect. Automated Backup supports only InnoDB storage engine.  
+Option d: Sorry! That’s incorrect. Automated Backup is supported for MySQL, but the storage engine type has to be InnoDB. 
+
+
+
+4. Which of the following statements about Manual Backup is FALSE? 
+a. Manual Backups are user initiated
+b. Manual Backups have longer retention period than automated backups
+c. Manual Backups have a limited time period of 35 days
+d. Manual Backups will exist until you delete them
+
+The correct answer is option c.
+
+The explanation for the correct answer
+You are right! This is a false statement. Automatic Backups have a limited time period of 35 days but Manual Backups do not have a limited retention period. 
+
+Explanation for wrong answer
+Option a: Sorry! That’s incorrect. This is a true statement about Manual Backups.
+Option b: Sorry! That’s incorrect. This is a true statement about Manual Backups.
+Option d: Sorry! That’s incorrect. This is a true statement about Manual Backups.
+5. Which of the following backups can be restored from?
+a. Automatic Backups
+b. Manual Backups 
+c. Both Automatic and Manual Backups
+
+The correct answer is option c.
+
+Explanation for correct answer
+You are right! Backups can be restored from irrespective of the method used to take the backup. 
+
+Explanation for wrong answer
+Option a: Sorry! That’s incorrect. Backups can be restored from irrespective of the method used to take the backup. 
+Option b: Sorry! That’s incorrect. Backups can be restored from irrespective of the method used to take the backup. 

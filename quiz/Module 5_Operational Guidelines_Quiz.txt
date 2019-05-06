@@ -1,0 +1,67 @@
+Highly Available Databases with AWS RDS - Quiz
+Module 5 ?Operational Guidelines
+
+1. Which of the following is a proper solution for monitoring your database?
+a. AWS CloudDemo
+b. AWS CloudMonitor
+c. AWS CloudWatch
+d. AWS CloudStorage
+
+The correct answer is option c.
+
+The explanation for the correct answer 
+That's correct! Although some basic information on some of the matrices will be provided by default, for better monitoring, using AWS CloudWatch is the best solution.
+
+The explanation for incorrect answers
+Option a: Sorry! Incorrect! AWS CloudWatch is the proper solution for monitoring your database.
+Option b: Sorry! Incorrect! AWS CloudWatch is the proper solution for monitoring your database.
+Option d: Sorry! Incorrect! AWS CloudWatch is the proper solution for monitoring your database.
+
+2. If your operations are highly I/O intensive, which of the following storage type should you choose?
+a. Provisioned IOPS.  
+b. General Purpose SSD.
+c. Magnetic. 
+d. None of the above. 
+The correct answer is option a.
+The explanation for the correct answer
+You are right! Provisioned IOPS will give a higher number of IOPS compared to other storage types. 
+The explanation for wrong answers
+Option b: Sorry! Incorrect! General Purpose SSD will give one IOPS per 3GB which is good, but provisioned IOPS will give a higher number of IOPS.
+Option c: Sorry! Incorrect! Provisioned IOPS will give a higher number of IOPS compared to other storage types. 
+Option d: Sorry! Incorrect! Provisioned IOPS will give higher number of IOPS compared to other storage types.
+
+
+
+3.  What are the factors which affect the scalability of your database the most? 
+a. Memory, Resolution and Monitoring
+b. Throughput, Keyboard and Storage
+c. Memory, Network and Throughput
+d. Memory, CPU and Storage
+
+The correct answer is option d.
+
+Explanation for correct answer
+Yes, that's correct. Memory, CPU and Storage are the major factors which affect the scalability of the database the most.
+
+Explanation for wrong answers
+Option a: Sorry! That's incorrect. Memory, CPU and Storage are the major factors which affect the scalability of the database the most.
+Option b: Sorry! That's incorrect. Memory, CPU and Storage are the major factors which affect the scalability of the database the most.
+Option c: Sorry! That's incorrect. Memory, CPU and Storage are the major factors which affect the scalability of the database the most.
+
+
+
+4. Which of the following will you enable in order to implement auditing for your database? 
+a. AWS CloudWatch
+b. AWS CloudAudit
+c. AWS CloudLog
+d. AWS CloudTrail
+
+The correct answer is option d.
+
+The explanation for the correct answer
+You are right! Enabling AWS CloudTrail will help you audit each operation on your database. 
+
+The explanation for the wrong answer
+Option a: Sorry! That's incorrect. Enabling AWS CloudTrail will help you audit each operation on your database. 
+Option b: Sorry! That's incorrect. Enabling AWS CloudTrail will help you audit each operation on your database. 
+Option d: Sorry! That's incorrect. Enabling AWS CloudTrail will help you audit each operation on your database. 

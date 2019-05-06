@@ -1,0 +1,52 @@
+Highly Available Databases with AWS RDS - Quiz
+Module 3 –AWS RDS: Overview
+
+
+1. A collection of data items stored as a set of tables containing rows and columns is ________.
+a. Relational Database
+b. Database
+c. AWS
+d. VPC
+The correct answer is option a.
+Explanation for correct answer
+That’s correct! In a relational database, data items are stored as a set of tables containing rows and columns.
+Explanation for wrong answers
+Option b: Not really! Database is also a collection of data items; but not necessarily in tables containing rows and columns.
+Option c: Sorry! Incorrect! AWS stands for Amazon Web Services.
+Option d: Sorry! Incorrect! VPC stands for Virtual Private Cloud.
+
+
+2. Which of the following statements about MySQL is FALSE?
+a. MySQL is the only one available Amazon RDS Engines.
+b. MySQL is a relational database service in the cloud that makes things like setup and operations – easy, scalable, and highly available.
+c. ?MySQL is complicated to manage and administer
+d. A MySQL RDS can be scaled up to petabytes.
+Correct answer is option c.
+Explanation for correct answer
+You are right! This is a false statement. MySQL is easy to administer; users can make use of the Amazon Console to carry out most of the admin tasks themselves.
+Explanation for wrong answers
+Option a: This is not correct. The other Amazon RDS engines are Aurora, PostgreSQL, MariaDB, Oracle and SQL Server.
+Option b: Incorrect! This is a TRUE statement about MySQL.
+Option d: Incorrect! MySQL is highly scalable, and you can scale up to petabytes.
+
+
+3. Is this statement true or false – “You can use any of the Amazon RDS engines based on your requirement.”
+The correct answer is true.
+   The explanation for the correct answer
+Yes! You are right. You may use any of the Amazon RDS engines based on your workload and other requirements.
+   The explanation for the wrong answer
+Sorry! You are wrong. It is a true statement. You may use any of the Amazon RDS engines based on your workload and other requirements. 
+
+
+4. When should you choose multi-AZ deployment for AWS RDS databases?
+a. When you are expecting a higher workload
+b. When you are expecting a lower workload
+c. When you have deployed a MySQL RDS database
+d. When you have not deployed a MySQL RDS database
+The correct answer is option a.
+The explanation for the correct answer
+If you’re expecting a higher workload in future, you can opt for multi-AZ deployment. In case of unforeseen circumstances, like if your master database is down, then any of the slaves in other AZ will be promoted to Master, and the application will not face any downtime.
+The explanation for wrong answers
+Option b: Sorry! You are incorrect.If you’re expecting a higher workload in future, you can opt for multi-AZ deployment. In case of unforeseen circumstances, like if your master database is down, then any of the slaves in other AZ will be promoted to Master, and the application will not face any downtime.
+Option c: Sorry! You are incorrect.If you’re expecting a higher workload in future, you can opt for multi-AZ deployment. In case of unforeseen circumstances, like if your master database is down, then any of the slaves in other AZ will be promoted to Master, and the application will not face any downtime.
+Option d: Sorry! You are incorrect.If you’re expecting a higher workload in future, you can opt for multi-AZ deployment. In case of unforeseen circumstances, like if your master database is down, then any of the slaves in other AZ will be promoted to Master, and the application will not face any downtime.
