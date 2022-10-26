@@ -24,3 +24,7 @@ NA
 * [AWS MasterClass: Docker Containers In The Cloud With AWS ECS [Video]](https://www.packtpub.com/application-development/aws-masterclass-docker-containers-cloud-aws-ecs-video)
 
 * [AWS MasterClass: Networking And Virtual Private Cloud (VPC) [Video]](https://www.packtpub.com/virtualization-and-cloud/aws-masterclass-networking-and-virtual-private-cloud-vpc-video)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781789539127">https://packt.link/free-ebook/9781789539127 </a> </p>
