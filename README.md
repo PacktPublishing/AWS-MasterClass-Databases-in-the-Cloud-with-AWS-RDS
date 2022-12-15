@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781789539127)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # AWS-MasterClass-Databases-in-the-Cloud-with-AWS-RDS
 AWS MasterClass: Databases in the Cloud with AWS RDS, published by Packt
 # AWS MasterClass: Databases in the Cloud with AWS RDS [Video]
